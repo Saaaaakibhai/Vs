@@ -66,7 +66,7 @@
                 <a href="#"><i class="fas fa-angle-right"></i> Terms of Use </a>
 
             </div>
-            <div class="Box">
+            <div class="box">
                 <h3>Contact Info</h3>
                 <a herf="#"><i class="fas fa-phone"></i> +880 1971 306 641 </a>
                 <a herf="#"><i class="fas fa-phone"></i> +880 1621 887 399 </a>

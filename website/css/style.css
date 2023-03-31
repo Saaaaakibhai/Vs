@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 :root{
-    --main-color:#8e44ad;
+    --main-color:#aa0000;
     --black:#222;
     --white:#fff;
     --light-black:#777;
@@ -92,6 +92,53 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+/*making align and cloumn for it */
+.footer{
+    background: url(../images/download.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap: 3 rem;
+}
+.footer .box-container .box h3{
+    color:var(--light-bg);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.footer .box-container .box a {
+    color: var(--light-bg);
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+.footer .box-container .box a i{
+    color:var(--main-color);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+
+}
+
+
+
+
 /* media queries */
 @media (max-width:1200px){
     section{
@@ -128,7 +175,7 @@ section{
         transition: .2s linear;
         clip-path: polygon(0 0,100% 0,100% 0,0 0);
     }
-    .header .navbar.active{
+    .header.navbar.active{
         clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
     }
     .header .navbar a{
