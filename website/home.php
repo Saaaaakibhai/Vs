@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body> 
     <!-- header section starts  -->
     <section class="header">
 
@@ -37,6 +37,41 @@
     </section>
     <!-- header section ends  -->
 
+    <!-- home section start -->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide"style ="background:url(images/home01.jpg) no-repeat">
+                    <div class="content">
+                        <span>Think, Code, Fix</span>
+                        <h3>Programming</h3>
+                        <a href="course.php" class='btn'>Discover More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide"style ="background:url(images/home02.jpg) no-repeat">
+                    <div class="content">
+                        <span>Think, Code, Fix</span>
+                        <h3>Find Suitable Language</h3>
+                        <a href="course.php" class='btn'>Discover More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide"style ="background:url(images/home03.jpg) no-repeat">
+                    <div class="content">
+                        <span>Think, Code, Fix</span>
+                        <h3>Way To Success</h3>
+                        <a href="course.php" class='btn'>Discover More</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- home section end -->
 
 
 
@@ -45,6 +80,56 @@
 
 
 
+
+<!-- courses in home section starts -->
+     <section class="courses">
+     <h1 class="heading-title">Our Coureses</h1>
+     <div class="box-container"> 
+
+        <div class="box">
+            <img src="images/c++.png" alt="">
+            <h3>C++</h3>           
+        </div>
+        <div class="box">
+            <img src="images/rsz_1java.png" alt="">
+            <h3>Java</h3>           
+        </div>
+        <div class="box">
+            <img src="images/rsz_python.png" alt="">
+            <h3>Python</h3>           
+        </div>
+        <div class="box">
+            <img src="images/rsz_php.png" alt="">
+            <h3>Php</h3>           
+        </div>
+         <div class="box">
+            <img src="images/rsz_dsa.png" alt="">
+            <h3>DSA</h3>           
+        </div>
+        <div class="box">
+            <img src="images/rsz_dbms.png" alt="">
+            <h3>DBMS</h3>           
+        </div>
+     </div>
+</section>
+<!-- courses in home section ends -->
+
+<!-- home about section starts -->
+<section class="home-about">
+    <div class="image">
+        <img src="images/homeabout.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>About Us</h3>
+        <p>
+            We do provide the best IT services in 
+                           Dhaka city.
+                           We've multiple type of teacher from best institutions. 
+        </p>
+        <a href="about.php"class="btn">Read More</a>
+    </div>
+</section>
+<!-- home about section ends -->
 
 
 

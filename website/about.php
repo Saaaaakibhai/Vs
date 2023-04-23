@@ -39,7 +39,7 @@
     <!-- header section ends  -->
     
     <!-- Backgroup Picture -->
-    <div class="heading" style="background:url(images/heading-img)">
+    <div class="heading" style="background:url(images/heading-about-background.jpg) no-repeat">
         <h1>About Us</h1>
     </div>
 
