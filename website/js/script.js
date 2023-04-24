@@ -20,3 +20,16 @@ var swiper = new Swiper(
     },
 }
 );
+
+let loadMoreBtn= document.querySelector('.course .load-more .btn');
+let currentItem = 5;
+loadMoreBtn.oneclick = () =>{
+    let boxes = [...document.querySelector('.course .box-container .box')];
+    for(var i=currentItem;i < currentItem+5;i++){
+        boxes[i].style.display = 'inline-block';
+    };
+    currentItem +=3;
+    if(currentItem>=boxes.length){
+        loadMoreBtn.style.display = 'none';
+    }
+}

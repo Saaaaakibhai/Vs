@@ -142,18 +142,17 @@
 <section class="home-course">
     <h1 class="heading"> Our Coureses </h1>
     <div class="box-container">
-        <div class="box">
+        <!-- <div class="box">
             <div class="image">
                 <img src="images/coursec++.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Programming & Explore</h3>
                 <p>Pick your own language and do solve Everything</p>
-                <a href="book.php" class="btn">Book Now</a>
+                <a href="enroll.php" class="btn">Enroll Now</a>
             </div>
-        </div>
-
-        <div class="box-container">
+        </div> -->
+        
         <div class="box">
             <div class="image">
                 <img src="images/coursejava.jpg" alt="">
@@ -161,11 +160,10 @@
             <div class="content">
                 <h3>Programming & Explore</h3>
                 <p>Pick your own language and do solve Everything</p>
-                <a href="book.php" class="btn">Book Now</a>
+                <a href="enroll.php" class="btn">Enroll Now</a>
             </div>
         </div>
 
-        <div class="box-container">
         <div class="box">
             <div class="image">
                 <img src="images/coursepython.jpg" alt="">
@@ -173,11 +171,10 @@
             <div class="content">
                 <h3>Programming & Explore</h3>
                 <p>Pick your own language and do solve Everything</p>
-                <a href="book.php" class="btn">Book Now</a>
+                <a href="enroll.php" class="btn">Enroll Now</a>
             </div>
         </div>
 
-        <div class="box-container">
         <div class="box">
             <div class="image">
                 <img src="images/coursephp.jpg" alt="">
@@ -185,11 +182,10 @@
             <div class="content">
                 <h3>Programming & Explore</h3>
                 <p>Pick your own language and do solve Everything</p>
-                <a href="book.php" class="btn">Book Now</a>
+                <a href="enroll.php" class="btn">Enroll Now</a>
             </div>
         </div>
 
-        <div class="box-container">
         <div class="box">
             <div class="image">
                 <img src="images/coursedsa.png" alt="">
@@ -197,11 +193,10 @@
             <div class="content">
                 <h3>Programming & Explore</h3>
                 <p>Pick your own language and do solve Everything</p>
-                <a href="book.php" class="btn">Book Now</a>
+                <a href="enroll.php" class="btn">Enroll Now</a>
             </div>
         </div>
 
-        <div class="box-container">
         <div class="box">
             <div class="image">
                 <img src="images/coursedbms.jpg" alt="">
@@ -209,20 +204,35 @@
             <div class="content">
                 <h3>Programming & Explore</h3>
                 <p>Pick your own language and do solve Everything</p>
-                <a href="book.php" class="btn">Book Now</a>
+                <a href="enroll.php" class="btn">Enroll Now</a>
             </div>
         </div>
 
-
     </div>
-    <div class="load-more"> <a href="course.php" class="btn">Load More</a> </div>
+
+    <div class="Load-more"> <a href="course.php" class="btn">Load More</a></div>
+</section>
+
+
+<!-- home course section ends -->
+
+
+
+<!-- home offer section start-->
+<section class="home-offer">
+    <div class="content">
+        <h3>Upto 50% off</h3>
+        <p>Grab your Oppurtunity and make a good Deal</p>
+        <a href="enroll.php"class="btn">Enroll Now</a>
+    </div>
 </section>
 
 
 
+<!-- home offer section end  -->
 
 
-<!-- home course section ends -->
+
 
 
 
@@ -257,7 +267,7 @@
             </div>
             <div class="box">
                 <h3> Follow Us </h3>
-                <a herf="#"> <i class="fab fa-facebook"></i> Facebook </a>
+                <a herf="#"> <i class="fab fa-faceenroll"></i> Faceenroll </a>
                 <a herf="#"> <i class="fab fa-twitter"></i> Twitter </a>
                 <a herf="#"> <i class="fab fa-instagram"></i> Instagram </a>
                 <a herf="#"> <i class="fab fa-linkedin"></i> Linkedln </a>

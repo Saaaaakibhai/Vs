@@ -43,7 +43,76 @@
         <h1>Course</h1>
     </div>
 
+<!-- course section start  -->
+<section class="course">
+    <h1 class="heading-title">Offerd Courses</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursec++.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>C++</h3>
+                <p>Make yourself more sharp</p>
+                <a href="enroll.php"class="btn">Enroll Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/coursejava.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Java</h3>
+                <p>Make yourself more sharp</p>
+                <a href="enroll.php"class="btn">Enroll Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/coursepython.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Python</h3>
+                <p>Make yourself more sharp</p>
+                <a href="enroll.php"class="btn">Enroll Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/coursephp.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Php</h3>
+                <p>Make yourself more sharp</p>
+                <a href="enroll.php"class="btn">Enroll Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/coursedsa.png" alt="">
+            </div>
+            <div class="content">
+                <h3>DSA</h3>
+                <p>Make yourself more sharp</p>
+                <a href="enroll.php"class="btn">Enroll Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/coursedbms.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>DBMS</h3>
+                <p>Make yourself more sharp</p>
+                <a href="enroll.php"class="btn">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+<div class="load-more"><span class="btn">Load More</span></div>
+</section>
 
+
+<!-- course section ends -->
 
 
 
@@ -82,7 +151,7 @@
             </div>
             <div class="box">
                 <h3> Follow Us </h3>
-                <a herf="#"> <i class="fab fa-facebook"></i> Facebook </a>
+                <a herf="#"> <i class="fab fa-faceenroll"></i> Faceenroll </a>
                 <a herf="#"> <i class="fab fa-twitter"></i> Twitter </a>
                 <a herf="#"> <i class="fab fa-instagram"></i> Instagram </a>
                 <a herf="#"> <i class="fab fa-linkedin"></i> Linkedln </a>

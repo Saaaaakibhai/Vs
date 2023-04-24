@@ -44,6 +44,25 @@ section{
         opacity: 0;
     }
 }
+/* about modify */
+.heading{
+    background-size: cover !important;
+    background-position: cover !important;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+
+}
+
 
 
 
@@ -227,7 +246,7 @@ section{
 }
 .home-about .content p{
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 1rem 0;
     line-height: 2;
     color: var(--black);
 }
@@ -236,7 +255,9 @@ section{
 .home-course{
     background: var(--light-bg);
 }
-
+.home-course .heading{
+    font-size: 3rem;
+}
 .home-course .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -250,11 +271,11 @@ section{
 }
 
 
-.home-course .box-container .image{
-    height: 25rem;
+.home-course .box-container .box .image{
+    height: 20rem;
     overflow: hidden;
 }
-.home-course .box-container .image img{
+.home-course .box-container .box .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -274,6 +295,162 @@ section{
     line-height: 2;
     padding: 1rem 0;
 }
+.home-course .load-more{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home-offer{
+    text-align: center;
+}
+.home-offer .content{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.home-offer .content h3{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.home-offer .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3rem;
+}
+.about .image{
+    flex:1 1 41rem;
+}
+.about .image img{
+    width: 100%;
+}
+.about .content{
+    font-size: 2rem;
+    flex:1 1 41rem;
+    text-align: center;
+}
+.about .content h3{
+    font-size: 3rem;
+    color:var(--black)
+}
+.about .content p{
+    font-size: 4rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.about .content .icons-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+}
+.about .content .icons-container .icons{
+    background: var(--light-bg);
+    padding: 2rem;
+    flex: 1 1 16rem;
+}
+.about .content .icons-container .icons i{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+    
+}
+.about .content .icons-container .icons span{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    display: block;
+}
+
+
+.course .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.course .box-container .box {
+    border: var(--bordar);
+    box-shadow: var(--box-shadow);
+    background: var(--white);
+    display: none;
+}
+
+.course .box-container .box:nth-child(1),
+.course .box-container .box:nth-child(2),
+.course .box-container .box:nth-child(3),
+.course .box-container .box:nth-child(4),
+.course .box-container .box:nth-child(5),
+.course .box-container .box:nth-child(6){
+    display: inline-block;
+}
+.course .box-container .box:hover .image img{
+    transform: scale(3.3);
+}
+.course .box-container .box .image {
+    height: 20rem;
+    overflow: hidden;
+}
+
+.course .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.course .box-container .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.course .box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.course .box-container .box .content p {
+    font-size: 1.4rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.course .load-more {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

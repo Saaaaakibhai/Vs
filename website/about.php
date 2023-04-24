@@ -42,8 +42,48 @@
     <div class="heading" style="background:url(images/heading-about-background.jpg) no-repeat">
         <h1>About Us</h1>
     </div>
+<!-- about section start -->
+
+<section class="about">
+    <div class="image">
+        <img src="images/aboutimg.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Why Us?</h3>
+        <p>Cause we are the best you know.. </p>
+        <p>Yes make yourself best</p>
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-map"></i>
+            <span>
+                Achievement Goal
+            </span>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-hand-holding-usd"></i>
+            <span>
+                Resonable Price
+            </span>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <span>
+                24/7 Guide Services 
+            </span>
+        </div>
+
+      </div>
+    </div>
 
 
+</section>
+
+
+
+<!-- about section ends -->
 
 
 
@@ -82,7 +122,7 @@
             </div>
             <div class="box">
                 <h3> Follow Us </h3>
-                <a herf="#"> <i class="fab fa-facebook"></i> Facebook </a>
+                <a herf="#"> <i class="fab fa-faceenroll"></i> Faceenroll </a>
                 <a herf="#"> <i class="fab fa-twitter"></i> Twitter </a>
                 <a herf="#"> <i class="fab fa-instagram"></i> Instagram </a>
                 <a herf="#"> <i class="fab fa-linkedin"></i> Linkedln </a>
