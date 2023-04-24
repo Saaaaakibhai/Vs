@@ -133,6 +133,101 @@
 
 
 
+ 
+
+
+
+<!-- home course section starts -->
+
+<section class="home-course">
+    <h1 class="heading"> Our Coureses </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursec++.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Programming & Explore</h3>
+                <p>Pick your own language and do solve Everything</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursejava.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Programming & Explore</h3>
+                <p>Pick your own language and do solve Everything</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursepython.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Programming & Explore</h3>
+                <p>Pick your own language and do solve Everything</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursephp.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Programming & Explore</h3>
+                <p>Pick your own language and do solve Everything</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursedsa.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Programming & Explore</h3>
+                <p>Pick your own language and do solve Everything</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/coursedbms.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Programming & Explore</h3>
+                <p>Pick your own language and do solve Everything</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="load-more"> <a href="course.php" class="btn">Load More</a> </div>
+</section>
+
+
+
+
+
+<!-- home course section ends -->
+
+
+
+
+
     <!-- footer section starts -->
     <section class="footer">
         <div class="box-container">
