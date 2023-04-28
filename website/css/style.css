@@ -164,7 +164,8 @@ section{
 }
 .home .slide .content .btn{
     animation: fadeIn .4s linear backwards .6s;
-}/*
+}
+/*
 .home .swiper-button-next,
 .home .swiper-button-prev{
     top:inherit;
@@ -202,13 +203,6 @@ section{
     background: var(--light-black);
     cursor: pointer;
 }
-
-
-
-
-
-
-
 
 .courses .box-container .box:hover{
     background: var(--main-color);
@@ -431,11 +425,38 @@ section{
 }
 
 
-
-
-
-
-
+.enrolling .enroll-form{
+    padding: 2rem;
+    background: var(--light-bg);
+}
+.enrolling .enroll-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.enrolling .enroll-form .flex .inputBox{
+    flex:1 1 41rem;
+}
+.enrolling .enroll-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--bordar);
+}
+.enrolling .enroll-form .flex .inputBox input:focus{
+    background: var(--black);
+    color: var(--white);
+}
+.enrolling .enroll-form .flex .inputBox input:focus::placeholder{
+    color: var(--light-white);
+}
+.enrolling .enroll-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: var(--light-black);
+}
 
 
 

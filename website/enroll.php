@@ -44,7 +44,49 @@
     </div>
 
 
+<!-- enroll section starts -->
+<section class="enrolling">
+    <h1 class="heading-title">Enroll your corse!!!</h1>
+    <form action="enroll_form.php"methot="post"class="enroll-form">
+        <div class="flex">
+            <div class="inputBox">
+                <span>Name :</span>
+                <input type="text" placeholder="Enter your name" name="name">
+            </div>
 
+            <div class="inputBox">
+                <span>Email :</span>
+                <input type="email" placeholder="Enter your email" name="email">
+            </div>
+
+            <div class="inputBox">
+                <span>Phone :</span>
+                <input type="number" placeholder="Enter your number" name="phone">
+            </div>
+
+            <div class="inputBox">
+                <span>Address :</span>
+                <input type="text" placeholder="Enter your address" name="address">
+            </div>
+
+            <div class="inputBox">
+                <span>Which Course :</span>
+                <input type="text" placeholder="Chose your course" name="name">
+            </div>
+
+            <div class="inputBox">
+                <span>How many course :</span>
+                <input type="number" placeholder="Number of courses" name="courses">
+            </div>
+        </div>
+
+        <input type="submit" value="submit" class="btn" name="send">
+
+    </form>
+
+</section>
+
+<!-- enroll section ends -->
 
 
 
