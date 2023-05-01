@@ -47,7 +47,7 @@
 <!-- enroll section starts -->
 <section class="enrolling">
     <h1 class="heading-title">Enroll your corse!!!</h1>
-    <form action="enroll_form.php"methot="post"class="enroll-form">
+    <form action="enroll_form.php" method="post" class="enrollform">
         <div class="flex">
             <div class="inputBox">
                 <span>Name :</span>

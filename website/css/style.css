@@ -218,6 +218,7 @@ section{
 }
 
 
+
 .home-about{
     display: flex;
     align-items: center;
@@ -244,6 +245,8 @@ section{
     line-height: 2;
     color: var(--black);
 }
+
+
 
 
 .home-course{
@@ -425,19 +428,19 @@ section{
 }
 
 
-.enrolling .enroll-form{
+.enrolling .enrollform{
     padding: 2rem;
     background: var(--light-bg);
 }
-.enrolling .enroll-form .flex{
+.enrolling .enrollform .flex{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
-.enrolling .enroll-form .flex .inputBox{
+.enrolling .enrollform .flex .inputBox{
     flex:1 1 41rem;
 }
-.enrolling .enroll-form .flex .inputBox input{
+.enrolling .enrollform .flex .inputBox input{
     width: 100%;
     padding: 1.2rem 1.4rem;
     font-size: 1.6rem;
@@ -446,14 +449,14 @@ section{
     margin-top: 1.5rem;
     border: var(--bordar);
 }
-.enrolling .enroll-form .flex .inputBox input:focus{
+.enrolling .enrollform .flex .inputBox input:focus{
     background: var(--black);
     color: var(--white);
 }
-.enrolling .enroll-form .flex .inputBox input:focus::placeholder{
+.enrolling .enrollform .flex .inputBox input:focus::placeholder{
     color: var(--light-white);
 }
-.enrolling .enroll-form .flex .inputBox span{
+.enrolling .enrollform .flex .inputBox span{
     font-size: 1.5rem;
     color: var(--light-black);
 }
