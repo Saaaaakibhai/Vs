@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Enroll</title>
     <!-- swiper css link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -14,7 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css ">
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 </head>
@@ -30,6 +35,7 @@
             <a href="about.php">about</a>
             <a href="course.php">course</a>
             <a href="enroll.php">enroll</a>
+            <a href="logout.php" class="btn">Log Out</a>
         </nav>
         <!-- it shows the bar  -->
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -45,46 +51,60 @@
 
 
 <!-- enroll section starts -->
-<section class="enrolling">
-    <h1 class="heading-title">Enroll your corse!!!</h1>
-    <form action="enroll_form.php" method="post" class="enrollform">
-        <div class="flex">
-            <div class="inputBox">
-                <span>Name :</span>
-                <input type="text" placeholder="Enter your name" name="name">
-            </div>
 
-            <div class="inputBox">
-                <span>Email :</span>
-                <input type="email" placeholder="Enter your email" name="email">
-            </div>
 
-            <div class="inputBox">
-                <span>Phone :</span>
-                <input type="number" placeholder="Enter your number" name="phone">
-            </div>
+<body>
+<div class="w-auto p-5" style="background-color: #eee;">
 
-            <div class="inputBox">
-                <span>Address :</span>
-                <input type="text" placeholder="Enter your address" name="address">
-            </div>
+    <div class="container mt-15">
+        
+      
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Student Information 
+                            <a href="index.php" class="btn btn-danger float-end">BACK</a>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="code.php" method="POST">
 
-            <div class="inputBox">
-                <span>Which Course :</span>
-                <input type="text" placeholder="Chose your course" name="name">
-            </div>
+                            <div class="mb-3">
+                                <label>Student Name</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Student Email</label>
+                                <input type="email" name="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Student Phone</label>
+                                <input type="text" name="phone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Student Course</label>
+                                <input type="text" name="course" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" name="save_student" class="btn btn-primary">Save Student</button>
+                            </div>
 
-            <div class="inputBox">
-                <span>How many course :</span>
-                <input type="number" placeholder="Number of courses" name="courses">
+                        </form>
+                        
+                    </div>
+                </div>
             </div>
         </div>
+      
+    </div>
+</div>
 
-        <input type="submit" value="submit" class="btn" name="send">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-    </form>
 
-</section>
+
 
 <!-- enroll section ends -->
 
@@ -124,7 +144,7 @@
             </div>
             <div class="box">
                 <h3> Follow Us </h3>
-                <a herf="#"> <i class="fab fa-faceenroll"></i> Faceenroll </a>
+                <a herf="#"> <i class="fab fa-facebook"></i> Facebook </a>
                 <a herf="#"> <i class="fab fa-twitter"></i> Twitter </a>
                 <a herf="#"> <i class="fab fa-instagram"></i> Instagram </a>
                 <a herf="#"> <i class="fab fa-linkedin"></i> Linkedln </a>

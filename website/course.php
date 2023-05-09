@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Course</title>
     <!-- swiper css link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -30,6 +31,7 @@
             <a href="about.php">about</a>
             <a href="course.php">course</a>
             <a href="enroll.php">enroll</a>
+            <a href="logout.php" class="btn">Log Out</a>
         </nav>
         <!-- it shows the bar  -->
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -109,6 +111,7 @@
         </div>
     </div>
 <div class="load-more"><span class="btn">Load More</span></div>
+
 </section>
 
 
@@ -151,7 +154,7 @@
             </div>
             <div class="box">
                 <h3> Follow Us </h3>
-                <a herf="#"> <i class="fab fa-faceenroll"></i> Faceenroll </a>
+                <a herf="#"> <i class="fab fa-facebook"></i> Facebook </a>
                 <a herf="#"> <i class="fab fa-twitter"></i> Twitter </a>
                 <a herf="#"> <i class="fab fa-instagram"></i> Instagram </a>
                 <a herf="#"> <i class="fab fa-linkedin"></i> Linkedln </a>

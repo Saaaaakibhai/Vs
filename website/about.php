@@ -30,6 +30,7 @@
             <a href="about.php">about</a>
             <a href="course.php">course</a>
             <a href="enroll.php">enroll</a>
+            <a href="logout.php" class="btn">Log Out</a>
         </nav>
         <!-- it shows the bar  -->
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -122,7 +123,7 @@
             </div>
             <div class="box">
                 <h3> Follow Us </h3>
-                <a herf="#"> <i class="fab fa-faceenroll"></i> Faceenroll </a>
+                <a herf="#"> <i class="fab fa-facebook"></i> Facebook </a>
                 <a herf="#"> <i class="fab fa-twitter"></i> Twitter </a>
                 <a herf="#"> <i class="fab fa-instagram"></i> Instagram </a>
                 <a herf="#"> <i class="fab fa-linkedin"></i> Linkedln </a>

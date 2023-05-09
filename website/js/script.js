@@ -13,23 +13,23 @@ window.onscroll = () => {
 
 var swiper = new Swiper(
     ".home-slider", {
-        loop:true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-}
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    }
 );
 
-let loadMoreBtn= document.querySelector('.course .load-more .btn');
+let loadMoreBtn = document.querySelector('.course .load-more .btn');
 let currentItem = 5;
-loadMoreBtn.oneclick = () =>{
+loadMoreBtn.oneclick = () => {
     let boxes = [...document.querySelectorAll('.course .box-container .box')];
-    for(var i=currentItem;i < currentItem+5;i++){
+    for (var i = currentItem; i < currentItem + 5; i++) {
         boxes[i].style.display = 'inline-block';
     };
-    currentItem +=5;
-    if(currentItem>=boxes.length){
+    currentItem += 5;
+    if (currentItem >= boxes.length) {
         loadMoreBtn.style.display = 'none';
     }
 }
