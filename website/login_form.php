@@ -6,11 +6,11 @@ session_start();
 
 if(isset($_POST['submit'])){
 
-   $name = mysqli_real_escape_string($con, $_POST['name']);
+   // $name = mysqli_real_escape_string($con, $_POST['name']);
    $email = mysqli_real_escape_string($con, $_POST['email']);
    $pass = md5($_POST['password']);
-   $cpass = md5($_POST['cpassword']);
-   $user_type = $_POST['user_type'];
+   // $cpass = md5($_POST['cpassword']);
+   // $user_type = $_POST['user_type'];
    
 
 

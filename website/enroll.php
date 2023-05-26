@@ -21,20 +21,19 @@ session_start();
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
 </head>
 
 <body>
     <!-- header section starts  -->
     <section class="header">
 
-        <a href="home.php" class="logo">Ant.Tech</a>
+        <a href="home.php" class="logo" style="text-decoration:none">Ant.Tech</a>
 
-        <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="course.php">course</a>
-            <a href="enroll.php">enroll</a>
+            <nav class="navbar" >
+            <a href="home.php" style="text-decoration:none">home</a>
+            <a href="about.php" style="text-decoration:none">about</a>
+            <a href="course.php" style="text-decoration:none">course</a>
+            <a href="enroll.php" style="text-decoration:none">enroll</a>
             <a href="logout.php" class="btn">Log Out</a>
         </nav>
         <!-- it shows the bar  -->
@@ -56,9 +55,9 @@ session_start();
 <body>
 <div class="w-auto p-5" style="background-color: #eee;">
 
-    <div class="container mt-15">
+    <div class="container mt-15"  style="scale:180%">
         
-      
+    
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
